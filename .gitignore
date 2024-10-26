@@ -31,8 +31,8 @@
 *.out
 *.app
 
-# build directory
-build/
-
 # vscode directory
 .vscode/
+
+# build directory with CMake cash
+build/
