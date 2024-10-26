@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "generation_numbers.h"
 
-bool check(int argc, char* argv[])
+bool check(int argc, char* argv[])  
 {
     bool flag_max = false;
     bool flag_level = false;
