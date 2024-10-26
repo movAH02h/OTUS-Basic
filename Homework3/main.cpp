@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
     // Основная программа
     std::cout << "Hi! Enter your name:\n";
     std::string name; std::cin >> name;
-    
+
     int target = get_random_number(_max);
 
     int efforts = 0;
@@ -101,7 +101,7 @@ int main(int argc, char* argv[])
         std::cerr << "Error while executing print_result_table function";
         return 0;
     }
-    
+
 
     std::cout << "Print only best results:\n";
     if (print_each_minimum_efforts())
