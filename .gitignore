@@ -32,7 +32,7 @@
 *.app
 
 # vscode directory
-.vscode/
+**/.vscode*
 
 # build directory with CMake cash
-build/
+**/build*
